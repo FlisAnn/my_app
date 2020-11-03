@@ -6,7 +6,7 @@ const Header = () => {
     <Segment inverted>
       <Menu inverted secondary>
         <Menu.Item
-          name="my portfolio"
+          name="My Portfolio"
           />
         </Menu>
     </Segment>
