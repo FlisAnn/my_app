@@ -1,6 +1,6 @@
 describe("User can navigate the app", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3001");
+    cy.visit("http://localhost:3000");
   });
 
   describe("to About tab and it", () => {
@@ -31,7 +31,7 @@ describe("User can navigate the app", () => {
     });
 
     it("displays My Projects header", () => {
-      cy.get("projects-header").should("contain", "My Projects");
+      cy.get("#projects-header").should("contain", "My Projects");
     });
 
     it("displays component name in url", () => {
@@ -55,7 +55,7 @@ describe("User can navigate the app", () => {
     });
 
     it("displays Hello World", () => {  
-    cy.get("#hello").should("contain", "Hello");
+      cy.get("#hello").should("contain", "Hello");
     });
 
     it("displays correct url", () => {
@@ -65,7 +65,7 @@ describe("User can navigate the app", () => {
     });
     
     it("does not display About Me header", () => {
-    cy.get("#about-header").should("not-exist");
+      cy.get("#about-header").should("not-exist");
     });
 
     it("does not display About Me header", () => {
