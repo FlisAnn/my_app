@@ -24,3 +24,9 @@ $ yarn cy:open
 ```
 $  yarn add semantic-ui-react semantic-ui-css
 ```
+
+### Adding a router
+
+```
+$ yarn add react-router-dom 
+```
