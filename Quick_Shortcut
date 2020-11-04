@@ -11,6 +11,7 @@ $ yarn start
 ```
 
 ### Installing Cypress
+
 ```
 $ yarn add cypress --dev
 $ yarn run cypress open
@@ -19,6 +20,7 @@ $ yarn cy:open
 ```
 
 ### Adding Semantic UI and Semantic UI React
+
 ```
 $  yarn add semantic-ui-react semantic-ui-css
 ```
