@@ -1,18 +1,16 @@
 import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
+import axioas from "axios";
 
 class Projects extends Component {
   state = {
-    projects: [
-      {
-        id: 1,
-        name: "My First Website",
-      },
-      {
-        id: 2,
-        name: "Fizzbuzz"
-      },
-    ],
+    projects: [],
+  };
+
+  componentDidMount() {
+    axioas.get("./data/projects.json").then((response) => {
+      this.setState({ projects: response.data });
+    });
   }
 
   render() {
