@@ -1,3 +1,8 @@
+body {
+  background-image: linear-gradient(90deg, #ebbfdc 34.26%, #edd5ea 34.26%, #edd5ea 50%, #ebbfdc 50%, #ebbfdc 84.26%, #edd5ea 84.26%, #edd5ea 100%);
+  background-size: 108.00px 108.00px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
