@@ -13,16 +13,16 @@ const Header = () => {
           to={{ pathname: "/" }}
         />
         <MenuItem
-        id="about-tab"
-        name="about me"
-        as={NavLink}
-        to={{ pathname: "/about" }}
-        />
+          id="about-tab"
+          name="about me"
+          as={NavLink}
+          to={{ pathname: "/about" }}
+          />
         <MenuItem
-        id="projects-tab"
-        name="projects"
-        as={NavLink}
-        to={{ pathname: "/projects" }}
+          id="projects-tab"
+          name="my portfolio"
+          as={NavLink}
+          to={{ pathname: "/projects" }}
         />
       </Menu>
     </Segment>
