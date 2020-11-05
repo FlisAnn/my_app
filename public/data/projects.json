@@ -2,21 +2,21 @@
 {
     "id": 1,
     "name": "My First Website",
-    "image": "./src/Image/flycat.jpeg",
+    "image": "./Image/flycat.jpeg",
     "description": "This was my first project. The guy lost, but won the popular vote"
   },
 
   {
     "id": 2,
     "name": "UI Design",
-    "image": "./src/Image/mion.jpeg",
+    "image": "./Image/mion.jpeg",
     "description": "Designing user interfaces is fun. I want to learn more about that..."
   },
 
   {
     "id": 3,
     "name": "Mobile UX",
-    "image": "./src/Image/pipan.jpeg",
+    "image": "./Image/pipan.jpeg",
     "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding"
   }
 ]
