@@ -12,15 +12,16 @@ footer {
 }
 body {
   background-color: yellow;
+  /* background-image: linear-gradient(90deg, #f5e2f5 32.28%, #f5d2eb 32.28%, #f5d2eb 50%, #f5e2f5 50%, #f5e2f5 82.28%, #f5d2eb 82.28%, #f5d2eb 100%); */
+  /*background-size: 158.00px 158.00px;*/
 }
 .container {
   margin-bottom: 8;
-  background-image: linear-gradient(90deg, #f5e2f5 32.28%, #f5d2eb 32.28%, #f5d2eb 50%, #f5e2f5 50%, #f5e2f5 82.28%, #f5d2eb 82.28%, #f5d2eb 100%);
-  background-size: 158.00px 158.00px;
 }
 
 p {
   font-size: 25px;
+  font-stretch: semi-expanded;
 }
 
 
