@@ -6,9 +6,7 @@ const ProjectCard = ({ project }) => {
     <Card>
       <Image src={project.image} wrapped ui={false} />
       <Card.Content>
-        <Card.Id>{project.id}</Card.Id>
         <Card.Header>{project.name}</Card.Header>
-        <Card.Image> {project.image} </Card.Image> 
         <Card.Description>{project.description}</Card.Description>
       </Card.Content>
     </Card>
