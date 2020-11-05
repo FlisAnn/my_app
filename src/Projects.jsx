@@ -9,7 +9,9 @@ class Projects extends Component {
   };
 
   componentDidMount() {
+    debugger
     axios.get("./data/projects.json").then((response) => {
+      debugger
       this.setState({ projects: response.data });
     });
   }
