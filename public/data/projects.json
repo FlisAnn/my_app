@@ -10,7 +10,7 @@
     "id": 2,
     "name": "ATM",
     "image": "./images/atm.jpeg",
-    "description": "This project simulates an ATM and is written in Ruby and tested using rspec."
+    "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec."
   },
 
   {
