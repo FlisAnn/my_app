@@ -17,6 +17,9 @@ body {
 }
 .container {
   margin: 50 50 50 50;
+  padding-top: 50;
+  padding-right: 50;
+  padding-left: 50;
   background-color: white;
   height: 800px;
   width: 100%;
@@ -28,9 +31,10 @@ p {
   letter-spacing: 1px;
   line-height: 1.6;
 }
-.projectcard {
+.project-header {
 
-  /*padding-top: 10px; */
+  margin left: 10px;
+  margin bottom: 10px;
 
 }
 
