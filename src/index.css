@@ -18,15 +18,17 @@ body {
 .container {
   margin: 20 20 20 20;
   background-color: white;
-  height: 300px;
+  height: 800px;
   width: auto;
   padding-top: 20px;
   padding-left: 30px;
+  border-radius: 2%;
 }
 
 p {
   font-size: 25px;
-  font-stretch: semi-expanded;
+  letter-spacing: 1px;
+  line-height: 1.6;
 }
 
 
