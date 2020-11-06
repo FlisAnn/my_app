@@ -11,7 +11,7 @@ const About = () => {
           One of my passions is working with processes and trying new things to improve the way we work and continuously learn how to be better.
           
           I have long experience from working in and with agile processes and I have tried out different roles such as Test Manager, Scrum Master and tester. 
-          
+        
           I am driven by solving problems and enjoy working in projects with awesome colleagues, variation and new challenges.
 
           To come in contact with me, please send me an email at 
