@@ -14,10 +14,11 @@ body {
   background-size: 158.00px 158.00px;
 }
 .container {
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   width: 100%;
   border-radius: 1%;
   margin: 40px;
+  padding: 40px;
 }
 
 p {
@@ -30,4 +31,8 @@ p {
 h1 {
   margin: 25px;
   margin-bottom: 20px;
+}
+
+img {
+  float: left;
 }
