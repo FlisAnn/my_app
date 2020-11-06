@@ -16,8 +16,11 @@ body {
   background-size: 158.00px 158.00px;
 }
 .container {
-  margin-bottom: 8;
-  background-color: whitesmoke;
+  margin: 20 20 20 20;
+  background-color: white;
+  height: 300 px;
+  width: auto;
+  border-radius: 20%;
 }
 
 p {
