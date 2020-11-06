@@ -7,8 +7,8 @@ describe("User can see list of projects", () => {
   it("displays first project", () => {
     cy.get("#project-1").within(() => {
       cy.get(".image").should("exist");
-      cy.get(".header").should("contain", "My First Website");
-      cy.get(".description").should("contain", "This was my first project. The guy lost, but won the popular vote!"
+      cy.get(".header").should("contain", "Address Book");
+      cy.get(".description").should("contain", "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress"
       );
     });
   });
