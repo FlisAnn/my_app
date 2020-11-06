@@ -18,7 +18,7 @@ describe("User can see list of projects", () => {
       cy.get(".header").should("contain", "ATM");
       cy.get(".description").should(
         "contain",
-        "This project simulates an ATM and is written in Ruby and tested using rspec."
+        "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec."
       );
     });
   });
@@ -29,7 +29,7 @@ describe("User can see list of projects", () => {
       cy.get(".header").should("contain", "FizzBuzz");
       cy.get(".description").should(
         "contain",
-        "This project is written in Ruby and tested using rspec."
+        "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five"
       );
     });
   });
