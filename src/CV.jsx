@@ -8,3 +8,5 @@ const CV = () => {
     </Container>
   );
 };
+
+export default CV;
