@@ -16,6 +16,7 @@ body {
   background-size: 158.00px 158.00px;
 }
 .container {
+  margin: 50 50 50 50;
   background-color: white;
   height: 800px;
   width: 100%;
