@@ -18,9 +18,10 @@ body {
 .container {
   margin: 20 20 20 20;
   background-color: white;
-  height: 300 px;
+  height: 300px;
   width: auto;
-  border-radius: 20%;
+  padding-top: 20px;
+  padding-left: 30px;
 }
 
 p {
