@@ -18,7 +18,7 @@ describe("User can see list of projects", () => {
       cy.get(".header").should("contain", "ATM");
       cy.get(".description").should(
         "contain",
-        "This project is written in Ruby and tested using rspec."
+        "This project simulates an ATM and is written in Ruby and tested using rspec."
       );
     });
   });
