@@ -4,7 +4,6 @@
     "name": "Address Book",
     "image": "./images/addressbook.jpeg",
     "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress",
-    "link": "https://github.com/FlisAnn/Adressbook"
   },
 
   {
@@ -16,8 +15,8 @@
 
   {
     "id": 3,
-    "name": "Mobile UX",
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding"
+    "name": "FizzBuzz",
+    "image": "./images/fizzbuzz.png",
+    "description": "This project is written in Ruby and tested using rspec."
   }
 ]
