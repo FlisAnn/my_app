@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Address Book",
-    "image": "./image/addressbook.png",
+    "image": "./image/addressbook.jpeg",
     "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress",
     "link": "https://github.com/FlisAnn/Adressbook"
   },
