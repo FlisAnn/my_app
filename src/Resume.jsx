@@ -9,8 +9,10 @@ const Resume = () => {
         <h2>Experience</h2>
         <p>
           Test Manager
-          <img  Telenor
-        </p>
+          <img src="./images/telenor.png" alt="telenor logo"/> Telenor 
+          Jan 2018 - June 2020
+          </p>
+        
 
     </Container>
   );
