@@ -18,6 +18,7 @@ const About = () => {
 
           To come in contact with me, please send me an email at 
         </p>
+        
     </Container>
   );
 };

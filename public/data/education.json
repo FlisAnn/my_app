@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Test Manager at Telenor",
+    "link": "https://www.linkedin.com/in/annflismark/",
     "image": "./images/telenor.png",
     "description": "Test Manager for Backend department, 2018-2020"
   },
