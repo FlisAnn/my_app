@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container, Grid } from "semantic-ui-react";
 import axios from "axios";
 import EducationCard from './EducationCard';
-import WorkCard from './WorkCard';
+//import WorkCard from './WorkCard';
 
 class Education extends Component {
   state = {
