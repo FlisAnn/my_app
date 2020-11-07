@@ -1,21 +1,16 @@
 import React from "react";
-import { Container } from "semantic-ui-react"
+import { Card, Image } from "semantic-ui-react";
 
-const Resume = () => {
+const CVCard = ({ cv }) => {
   return (
-    <Container>
-        <h1 id="resume-header">My Resume</h1>
-
-        <h2>Experience</h2>
-        <p>
-          Test Manager
-          <img src="./images/telenor.png" alt="telenor logo"/> Telenor 
-          Jan 2018 - June 2020
-          </p>
-        
-
-    </Container>
+    <Card>
+      <Image src={cv.image} wrapped ui={false} />
+      <Card.Content>
+        <Card.Header>{cv.name}</Card.Header>
+        <Card.Description>{cv.description}</Card.Description>
+      </Card.Content>
+    </Card>
   );
 };
 
-export default Resume;
+export default CVCard;
