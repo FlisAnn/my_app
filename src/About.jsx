@@ -20,8 +20,13 @@ const About = () => {
             I am driven by solving problems and enjoy working in projects with awesome colleagues, variation and new challenges.
           </p>
           <p>     
-            To come in contact with me, please send me an email at 
-          </p>
+            In the spring of 2020 Corona hit the world and everything changed. I lost my job. I applied for many other jobs but the market 
+            was not in a good place. Also I felt irrelevant in the job market for the first time. For years I've been advocating personal responisibiliyt for ones code, 
+            test driven development and a user oriented point of view. As SAFe is 
+            coming to become reality in many big companies the need of a tester if finally
+            not certain. So I took the oppetunity to do something else. Since I love the IT-industry and have been working in it for 13 years I figured I should get on the other side
+            of the desk and become a developer. So I enrolled in the best BootCamp I could find and in February 2021 I am ready to create some awesome software on my on. 
+            </p>
 
     </Container>
   );
