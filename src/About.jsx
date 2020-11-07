@@ -16,7 +16,7 @@ const About = () => {
         </p>
         <p>
           Besides being really into becoming a web developer I have two cats called Pip and Mio. And a son that is 2 years old.
-          <img src="./images/pipochmio.png"></img><img src="./images/kotten.png"></img>
+          <img src="./images/pipochmio.png" alt="cats"></img><img src="./images/kotten.png" alt="kid"></img>
         </p>
 
           To come in contact with me, please send me an email at 
