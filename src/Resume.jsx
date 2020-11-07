@@ -9,11 +9,10 @@ class Education extends Component {
     education: [],
   };
 
- componentDidMount() {
-   axios.get("./data.education.json").then((response) => {
-    this.setState({ education: response.data });
-   });
- }
+  componentDidMount() {
+    axios({url:"../data/education.json", method: "get", headers: { 'Content-Type': 'application/json' }}).then((response) => {
+      this.setState({ education: response.data });
+    });
 
   render() {
     const { education } = this.state;
