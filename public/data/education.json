@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Test Manager at Telenor",
     "image": "./images/telenor.png",
-    "description": "Test Manager for backend department, 2018-2020"
+    "description": "Test Manager for Backend department, 2018-2020"
   },
 
   {
@@ -24,7 +24,7 @@
     "id": 4,
     "name": "Craft Academy 2020",
     "image": "./images/craft.png",
-    "description": "Fullstack Developer mastering React, Ruby and much more"
+    "description": "Fullstack Developer BootCamp"
   },
 
   {

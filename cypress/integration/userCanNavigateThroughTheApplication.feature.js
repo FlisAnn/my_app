@@ -87,8 +87,8 @@ describe("User can navigate the app", () => {
       cy.get("#resume-tab").click();
     });
   
-    it("displays Resume header", () => {
-      cy.get("#resume-header").should("contain", "Resume");
+    it("displays My Resume header", () => {
+      cy.get("#resume-header").should("contain", "My Resume");
     });
 
     it("displays component name in url", () => {
