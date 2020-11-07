@@ -14,7 +14,7 @@ const Hello = () => {
            </p>         
           <img src="./images/hello.png" alt="hello"></img>
           <p>
-            So have a look around and if you want to get in contact go to <a href="https://www.linkedin.com/in/annflismark/" target="_blank" rel="noreferrer">my linkedin page</a> and connect with me <3! 
+            So have a look around and if you want to get in contact go to <a href="https://www.linkedin.com/in/annflismark/" target="_blank" rel="noreferrer">my linkedin page</a> and connect with me! 
           </p>
           
            
