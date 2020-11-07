@@ -3,8 +3,6 @@ html, body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   background-image: linear-gradient(90deg, #f5e2f5 32.28%, #f5d2eb 32.28%, #f5d2eb 50%, #f5e2f5 50%, #f5e2f5 82.28%, #f5d2eb 82.28%, #f5d2eb 100%);
   background-size: 158.00px 158.00px;
 }
@@ -15,7 +13,7 @@ body {
   border-radius: 1%;
   margin: 40px;
   padding: 40px;
-  flex: 1 0 auto;
+  height: 100%;
 }
 
 p {
@@ -32,10 +30,6 @@ h1 {
 
 img {
   float: left;
-}
-
-.downfooter {
-  flex-shrink: 0;
 }
 
 footer {
