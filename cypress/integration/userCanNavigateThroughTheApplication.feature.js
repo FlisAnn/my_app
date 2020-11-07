@@ -46,6 +46,10 @@ describe("User can navigate the app", () => {
     it("does not display Hello World", () => {
       cy.get("#hello").should("not.exist");
     });
+
+    it("does not display Resume", () => {
+      cy.get("#resume").should("not.exist");
+    });
   });
 
   //Hello World
@@ -54,6 +58,7 @@ describe("User can navigate the app", () => {
     it("back to My Portfolio/Hello tab", () => {
       cy.get("#about.tab").click();
       cy.get("#header").click();
+      cy.get("#resume").click();
     });
 
     it("displays Hello World", () => {  
@@ -77,17 +82,17 @@ describe("User can navigate the app", () => {
   });
 
   //CV
-  describe("to CV tab and it", () => {
+  describe("to Resume tab and it", () => {
     beforeEach(() => {
-      cy.get("#cv-tab").click();
+      cy.get("#resume-tab").click();
     });
   
-    it("displays CV Me header", () => {
-      cy.get("#cv-header").should("contain", "CV");
+    it("displays Resume header", () => {
+      cy.get("#resume-header").should("contain", "Resume");
     });
 
     it("displays component name in url", () => {
-      cy.url().should("contain", "cv");
+      cy.url().should("contain", "resume");
     });
     
     it("does not display My Projects header", () => {

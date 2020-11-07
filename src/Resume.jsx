@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "semantic-ui-react"
 
-const CV = () => {
+const Resume = () => {
   return (
     <Container>
-        <h1 id="cv">My CV</h1>
+        <h1 id="resume">My Resume</h1>
     </Container>
   );
 };
 
-export default CV;
+export default Resume;

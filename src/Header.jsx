@@ -25,10 +25,10 @@ const Header = () => {
           to={{ pathname: "/projects" }}
         />
         <MenuItem
-          id="cv"
-          name="cv"
+          id="resume-tab"
+          name="my resume"
           as={NavLink}
-          to={{ pathname: "/cv" }}
+          to={{ pathname: "/resume" }}
         />
       </Menu>
     </Segment>
