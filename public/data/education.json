@@ -3,11 +3,32 @@
     "id": 1,
     "name": "Test Manager at Telenor",
     "image": "./images/telenor.png",
-    "description": "Test Manager for backend department"
+    "description": "Test Manager for backend department, 2018-2020"
   },
 
   {
     "id": 2,
+    "name": "Consultant at Zington ",
+    "image": "./images/zington.jpeg",
+    "description": "Various assignments as Test Leader at Skandia, H&ampH and Scandic Hotels, 2014-2018"
+  },
+
+  {
+    "id": 3,
+    "name": "Test Manager at Blocket ",
+    "image": "./images/blocket.png",
+    "description": "Test Manager at one of Sweden's most popular sites, 2011-2014"
+  },
+
+  {
+    "id": 4,
+    "name": "Craft Academy 2020",
+    "image": "./images/craft.png",
+    "description": "Fullstack Developer mastering React, Ruby and much more"
+  }
+
+  {
+    "id": 5,
     "name": "Södertörns Högskola 2004-2007",
     "image": "./images/sodertorn.png",
     "description": "Bachelor degree in IT, Media &amp Design"
