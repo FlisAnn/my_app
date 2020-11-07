@@ -13,9 +13,10 @@ const About = () => {
             I am driven by solving problems and enjoy working in projects with awesome colleagues, variation and new challenges.
           </p>
           <p>
-            Besides being really into becoming a web developer I have two cats called Pip and Mio. And a son that is almost 2,5 years old. They say all kids are cute, but mine is the cutest. And so are my cats. I enjoy reading and since I changed to reading on a Kindle I've saved a lot of space in my bookshelf, about 180 books less. 
-            <img src="./images/pipochmio.png" alt="cats"></img>
-            <img src="./images/kotten.png" alt="kid"></img>
+            Besides being really into becoming a web developer I have two cats called Pip and Mio. And a son that is almost 2,5 years old. They say all kids are cute, but mine is the cutest. And so are my cats. 
+              <img src="./images/pipochmio.png" alt="cats"></img>
+              <img src="./images/kotten.png" alt="kid"></img>
+            I enjoy reading and since I changed to reading on a Kindle I've saved a lot of space in my bookshelf, about 180 books less. 
           </p>
         
           <p>     
