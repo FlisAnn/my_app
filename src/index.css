@@ -34,8 +34,11 @@ img {
   float: left;
 }
 
-footer {
+.downfooter {
   flex-shrink: 0;
+}
+
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
