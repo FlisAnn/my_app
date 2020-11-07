@@ -3,13 +3,13 @@ import { Card, Image } from "semantic-ui-react";
 
 const EducationCard = ({ education }) => {
   return (
-    <Card>
+    <Cards>
       <Image src={education.image} wrapped ui={false} />
       <Card.Content>
         <Card.Header>{education.name}</Card.Header>
         <Card.Description>{education.description}</Card.Description>
       </Card.Content>
-    </Card>
+    </Cards>
   );
 };
 
