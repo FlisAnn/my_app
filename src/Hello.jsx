@@ -23,7 +23,7 @@ const Hello = () => {
           <br/>
           <br/>
    
-            So have a look around and if you want to get in contact go to <a href="https://www.linkedin.com/in/annflismark/" target="_blank" rel="noreferrer">my linkedin page</a> and connect with me! 
+            So have a look around and if you want to get in contact go to <a href="https://www.linkedin.com/in/annflismark/" target="_blank" rel="noreferrer">my linkedin page</a>! 
           </p>
           
            
