@@ -10,11 +10,11 @@ const ProjectCard = ({ project }) => {
 
         <Card.Description>{project.description}</Card.Description>
       </Card.Content>
-      <Card.Content>
+      {/* <Card.Content>
         <a href={project.github}>
-        <Icon name="github" id={`git   Icon-${project.id}`} />
+        <Icon name="github" id={`gitIcon-${project.id}`} />
         </a>
-      </Card.Content>
+      </Card.Content> */}
     </Card>
   );
 };
