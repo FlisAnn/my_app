@@ -3,7 +3,8 @@
     "id": 1,
     "name": "Address Book",
     "image": "./images/addressbook.jpeg",
-    "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress."
+    "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress.",
+    "github": "https://github.com/FlisAnn/Adressbook"
 
   },
 

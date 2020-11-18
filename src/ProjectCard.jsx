@@ -7,7 +7,11 @@ const ProjectCard = ({ project }) => {
       <Image src={project.image} wrapped ui={false} />
       <Card.Content>
         <Card.Header>{project.name}</Card.Header>
+
         <Card.Description>{project.description}</Card.Description>
+      </Card.Content>
+      <Card.Content>
+        <a href={project.github}></a>
       </Card.Content>
     </Card>
   );
