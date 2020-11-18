@@ -12,13 +12,15 @@
     "id": 2,
     "name": "ATM",
     "image": "./images/atm.jpeg",
-    "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec."
+    "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec.",
+    "github": "https://github.com/FlisAnn/atm_challenge_2020"
   },
 
   {
     "id": 3,
     "name": "FizzBuzz",
     "image": "./images/fizzbuzz.png",
-    "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five"
+    "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five",
+    "github": "https://github.com/FlisAnn/fizz_buzz"
   }
 ]

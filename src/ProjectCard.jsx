@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
         <Card.Description>{project.description}</Card.Description>
       </Card.Content>
       <Card.Content>
-        <a href={project.github}></a>
+        <a href={project.github} alt="link to GitHub"></a>
       </Card.Content>
     </Card>
   );
