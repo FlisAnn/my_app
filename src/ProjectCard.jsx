@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
       </Card.Content>
       <Card.Content>
         <a href={project.github}>
-        <Icon name="github" id={`gitIcon-${project.id}`} />
+        <Icon name="github" id={`git   Icon-${project.id}`} />
         </a>
       </Card.Content>
     </Card>
